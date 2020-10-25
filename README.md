@@ -1,4 +1,4 @@
-# Python imports
+# Python Imports
 
 ## 1. import module next to script
 ```python
@@ -27,4 +27,35 @@ from Package.SubPackage import SubModule
 
 # b) relative import from current submodule
 from ..SubPackage import SubModule
+```
+
+
+# Run main.py
+```bash
+initialized:  SimpleModule
+initialized:  Package
+initialized:  Package.Module
+initialized:  Package.SubPackage
+initialized:  Package.SubPackage.SubModule
+initialized:  Package.AnotherSubPackage
+initialized:  Package.AnotherSubPackage.AnotherSubModule
+
+1. module next to script
+simplefunction()
+simplefunction()
+
+2. module from package
+moduleMethod()
+moduleMethod()
+moduleMethod()
+
+3. module from subpackage
+subModuleMethod()
+subModuleMethod()
+subModuleMethod()
+subModuleMethod()
+
+4. intrapackage reference in submodule
+anotherSubModuleMethod()
+subModuleMethod()
 ```

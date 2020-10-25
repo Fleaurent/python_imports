@@ -1,4 +1,4 @@
-print("SimpleModule initialized: ", __name__)
+print("initialized: ", __name__)  # SimpleModule
 
 
 def simplefunction():
