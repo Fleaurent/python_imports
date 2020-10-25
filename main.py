@@ -16,7 +16,7 @@ from Package.SubPackage.SubModule import subModuleMethod
 from Package.AnotherSubPackage.AnotherSubModule import anotherSubModuleMethod
 
 if __name__ == "__main__":
-    print("1. module next to script")
+    print("\n1. module next to script")
     SimpleModule.simplefunction()
     simplefunction()
 
