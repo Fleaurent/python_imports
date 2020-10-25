@@ -12,7 +12,7 @@ from Package import SubPackage
 from Package.SubPackage import SubModule
 from Package.SubPackage.SubModule import subModuleMethod
 
-# 3. import subpackage with intrapackage reference
+# 4. import subpackage with intrapackage reference
 from Package.AnotherSubPackage.AnotherSubModule import anotherSubModuleMethod
 
 if __name__ == "__main__":
