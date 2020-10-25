@@ -1,0 +1,2 @@
+def moduleMethod():
+    print("moduleMethod()")
